@@ -1,3 +1,7 @@
+import sorting.impl.BubbleSort
+
 fun main() {
-    println("Hello World!")
+    val array = arrayOf(5, 2, 9, 1, 5, 6)
+    val bubbleSort = BubbleSort()
+    println(bubbleSort(array).asList())
 }
